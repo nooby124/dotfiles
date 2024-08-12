@@ -1,0 +1,18 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator
+
+[font]
+# The font for regular text.
+normal = { family = "0xProto Nerd Font", style = "Regular" }
+
+# The font for bold text.
+bold = { family = "0xProto Nerd Font", style = "Bold" }
+
+# The font for italic text.
+italic = { family = "0xProto Nerd Font", style = "Italic" }
+
+# The font for bold italic text.
+bold_italic = { family = "0xProto Nerd Font", style = "Bold Italic" }
+
+# Font size in points.
+size = 12.0
+
