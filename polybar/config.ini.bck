@@ -52,7 +52,7 @@ module-margin = 2
 separator = |
 separator-foreground = ${colors.disabled}
 
-font-0 = "Terminus:size=23:weight=bold"
+font-0 = "Source Code Pro:size=14:weight=bold"
 
 modules-left = xworkspaces xwindow
 modules-right = systray pulseaudio date

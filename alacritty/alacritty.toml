@@ -2,17 +2,17 @@
 
 [font]
 # The font for regular text.
-normal = { family = "0xProto Nerd Font", style = "Regular" }
+normal = { family = "Terminus", style = "Regular" }
 
 # The font for bold text.
-bold = { family = "0xProto Nerd Font", style = "Bold" }
+bold = { family = "Terminus", style = "Regular" }
 
 # The font for italic text.
-italic = { family = "0xProto Nerd Font", style = "Italic" }
+italic = { family = "Terminus", style = "Regular" }
 
 # The font for bold italic text.
-bold_italic = { family = "0xProto Nerd Font", style = "Bold Italic" }
+bold_italic = { family = "Terminus", style = "Regular" }
 
 # Font size in points.
-size = 12.0
+size = 15.0
 
