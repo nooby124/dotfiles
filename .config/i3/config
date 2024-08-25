@@ -221,6 +221,8 @@ bindsym Ctrl+Shift+c exec "flameshot gui"
 # Clipboard history
 bindsym $mod+v exec "copyq toggle"
 
+# playerctl
+bindsym mod1+F11 exec "playerctl play-pause"
 
 # Shortcuts for switching between languages
 # fcitx5
@@ -294,6 +296,8 @@ exec --no-startup-id nitrogen --restore
 #exec --no-startup-id fdirefox
 #startup apps
 
+exec --no-startup-id setxkbmap us -option "caps:super"
+exec --no-startup-id "playerctld daemon"
 exec --no-startup-id dunst
 exec --no-startup-id greenclip daemon
 exec --no-startup-id discord
