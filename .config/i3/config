@@ -21,10 +21,15 @@ exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+#bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+#set $refresh_i3status killall -SIGUSR1 i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer --allow-boost -i 5 --set-limit 100 && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pamixer --allow-boost -d 5 && $refresh_i3status
+bindsym XF86AudioMute exec --no-startup-id pamixer -t && $refresh_i3status
+
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -76,6 +81,7 @@ bindsym Control+space exec --no-startup-id rofi -show drun
 bindsym Control+mod1+c exec --no-startup-id "rofi -show calc -modi calc -no-show-match -no-sort"
 bindsym Control+mod1+e exec --no-startup-id "rofi -modi emoji -show emoji -kb-custom-1 Ctrl+c"
 bindsym Control+mod1+v exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+bindsym Control+mod1+p exec --no-startup-id "rofi -show power-menu -modi power-menu:rofi-power-menu"
 #### [WINDOW MANIPULATION]####
 # change focus
 bindsym $mod+Ctrl+a focus left
