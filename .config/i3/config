@@ -63,7 +63,7 @@ bindsym $mod+shift+ctrl+8 exec "autorandr -c default && pkill picom"
 bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+Return exec "flatpak run io.gitlab.librewolf-community"
 #bindsym $mod+Shift+Return exec brave
-bindsym $mod+e exec nautilus
+#bindsym $mod+e exec nautilus
 
 #bindsym $mod+Shift+1 exec "setxkbmap il"
 #bindsym $mod+Shift+2 exec "setxkbmap us"
