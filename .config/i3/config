@@ -300,6 +300,7 @@ exec --no-startup-id nitrogen --restore
 #exec --no-startup-id fdirefox
 #startup apps
 
+exec --no-startup-id ~/scripts/alternating_layouts.py
 exec --no-startup-id ~/scripts/teamviewerlaunch.sh
 exec --no-startup-id setxkbmap us -option "caps:super"
 exec --no-startup-id "playerctld daemon"
