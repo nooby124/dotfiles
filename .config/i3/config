@@ -220,7 +220,7 @@ bindsym Mod1+Tab exec --no-startup-id "rofi -show window -show-icons"
 # Show windows of currently focused application (todo doesnt work)
 #bindsym Mod1+q exec --no-startup-id "~/scripts/show_windows.sh"
 # Screenshots
-bindsym Ctrl+Shift+c exec "flameshot gui"
+bindsym $mod+Shift+c exec "flameshot gui"
 #bindsym Ctrl+Shift+g exec --no-startup-id "simplescreenrecorder" todo get better screen recorder
 # Clipboard history
 bindsym $mod+v exec "copyq toggle"
