@@ -204,6 +204,19 @@ bindsym $mod+Shift+8 move container to workspace number $ws8 ; workspace number 
 bindsym $mod+Shift+9 move container to workspace number $ws9 ; workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10 ; workspace number $ws10
 
+# alternative to move focused container to workspace
+bindsym Control+Shift+1 move container to workspace number $ws1 ; workspace number $ws1
+bindsym Control+Shift+2 move container to workspace number $ws2 ; workspace number $ws2
+bindsym Control+Shift+3 move container to workspace number $ws3 ; workspace number $ws3
+bindsym Control+Shift+4 move container to workspace number $ws4 ; workspace number $ws4
+bindsym Control+Shift+5 move container to workspace number $ws5 ; workspace number $ws5
+bindsym Control+Shift+6 move container to workspace number $ws6 ; workspace number $ws6
+bindsym Control+Shift+7 move container to workspace number $ws7 ; workspace number $ws7
+bindsym Control+Shift+8 move container to workspace number $ws8 ; workspace number $ws8
+bindsym Control+Shift+9 move container to workspace number $ws9 ; workspace number $ws9
+bindsym Control+Shift+0 move container to workspace number $ws10 ; workspace number $ws10
+
+
 # Fix workspaces
 #bindsym $mod+q [class="firefox"] move to workspace number 2 ; [class="discord"] move to workspace number 3 ; [class="spotify"] move to workspace number 4 ; [class="Code"] move to workspace number 5 ;  [class="resolve"] move to workspace number 1 ; [class="obs"] move to workspace number 5 ;  [class="nautilus"] move to workspace number 5
 
