@@ -61,8 +61,8 @@ bindsym $mod+shift+ctrl+0 exec "systemctl suspend"
 
 # start a terminal
 bindsym $mod+Return exec alacritty
-#bindsym $mod+Shift+Return exec "flatpak run io.gitlab.librewolf-community"
-bindsym $mod+Shift+Return exec "flatpak run com.brave.Browser"
+bindsym $mod+Shift+Return exec "flatpak run io.gitlab.librewolf-community"
+#bindsym $mod+Shift+Return exec "flatpak run com.brave.Browser"
 #bindsym $mod+e exec nautilus
 
 #bindsym $mod+Shift+1 exec "setxkbmap il"
