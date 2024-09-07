@@ -10,15 +10,15 @@
 #size = 13.0
 [font]
 #glyph_offset = { x = 1, y = 0 }
-normal.family = "MesloLGS Nerd Font Mono"
+normal.family = "ComicShannsMonoNerd Font"
 normal.style = "Regular"
 size = 13.0
 
 [font.bold]
-family = "MesloLGS Nerd Font Mono"
+family = "ComicShannsMonoNerd Font"
 style = "Bold"
 
 [font.italic]
-family = "MesloLGS Nerd Font Mono"
+family = "ComicShannsMonoNerd Font"
 style = "Italic"
 
