@@ -5,6 +5,13 @@ require'lspconfig'.pyright.setup{}
 require'lspconfig'.ast_grep.setup{}
 require'lspconfig'.csharp_ls.setup{}
 require'lspconfig'.lua_ls.setup{}
+require'lspconfig'.html.setup{}
+require'lspconfig'.bashls.setup{}
+
+vim.api.nvim_set_keymap('i', '<CR>', [[pumvisible() ? "\<C-y>" : "\<CR>"]], { noremap = true, silent = true, expr = true })
+
+
+vim.cmd("colorscheme carbonfox")
 
 vim.keymap.set('n', '<A-j>', ':m .+1<CR>==', { noremap = true, silent = true })
 vim.keymap.set('n', '<A-k>', ':m .-2<CR>==', { noremap = true, silent = true })
