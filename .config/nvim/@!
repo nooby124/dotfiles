@@ -1,6 +1,7 @@
 require("config.lazy")
 require("mason").setup()
 require("autoclose").setup()
+require("cord").setup()
 
 require'lspconfig'.pyright.setup{}
 require'lspconfig'.ast_grep.setup{}
@@ -21,7 +22,6 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = "Grep Files" })
 vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = "Find Buffers" })
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = "Find Help" })
 
-vim.keymap.set('n', '<leader>p', ":Gitsigns preview_hunk<CR>", {})
 
 vim.cmd("colorscheme carbonfox")
 
