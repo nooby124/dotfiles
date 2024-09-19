@@ -1,0 +1,18 @@
+import = [
+  "~/.config/alacritty/themes/themes/afterglow.toml"
+]
+
+[font]
+#glyph_offset = { x = 1, y = 0 }
+normal.family = "ComicShannsMonoNerd Font"
+normal.style = "Regular"
+size = 14.0
+
+[font.bold]
+family = "ComicShannsMonoNerd Font"
+style = "Bold"
+
+[font.italic]
+family = "ComicShannsMonoNerd Font"
+style = "Italic"
+

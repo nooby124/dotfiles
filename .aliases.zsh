@@ -17,4 +17,4 @@ alias cd=z
 alias i3config="nvim ~/.config/i3/config"
 alias c="xsel --input --clipboard"
 alias p="xsel --output --clipboard" 
-alias neofetch="fastfetch -l ~/aperture.txt --logo-color-1 yellow"
+alias neofetch="fastfetch"
