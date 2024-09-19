@@ -6,7 +6,7 @@ my dotfiles that are a fork of Livakivi's dotfiles
 
 i use arch btw  
 command to install most apps:  
-```yay alacritty dunst fastfetch i3 lf neofetch neovim picom polybar rofi git fzf bat xsel rofi-greenclip kdeconnectd playerctl ksnip ```  
+```yay alacritty dunst fastfetch i3 lf neofetch neovim picom polybar rofi git fzf bat xsel rofi-greenclip kdeconnectd playerctl ksnip nitrogen```  
   
 i also use `zsh` with `oh-my-zsh` and `powerlevel10k`   
   
