@@ -60,7 +60,7 @@ bindsym $mod+shift+ctrl+0 exec "systemctl suspend"
 # Wayland/Gnome, but there, don't need to use xrandr, but just restart the monitor for 160hz.
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec alacritty 
 bindsym $mod+Shift+Return exec "flatpak run io.gitlab.librewolf-community"
 #bindsym $mod+Shift+Return exec "flatpak run com.brave.Browser"
 #bindsym $mod+e exec nautilus
@@ -213,6 +213,12 @@ bindsym $mod+Shift+8 move container to workspace number $ws8 ; workspace number 
 bindsym $mod+Shift+9 move container to workspace number $ws9 ; workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10 ; workspace number $ws10
 
+bindsym $mod+Shift+Control+1 move container to workspace number $ws1 ; workspace number $ws11
+bindsym $mod+Shift+Control+2 move container to workspace number $ws2 ; workspace number $ws12
+bindsym $mod+Shift+Control+3 move container to workspace number $ws3 ; workspace number $ws13
+bindsym $mod+Shift+Control+4 move container to workspace number $ws4 ; workspace number $ws14
+bindsym $mod+Shift+Contorl+5 move container to workspace number $ws5 ; workspace number $ws15
+
 # alternative to move focused container to workspace
 bindsym Control+Shift+1 move container to workspace number $ws1 ; workspace number $ws1
 bindsym Control+Shift+2 move container to workspace number $ws2 ; workspace number $ws2
@@ -242,7 +248,7 @@ bindsym Mod1+Tab exec --no-startup-id "rofi -show window -show-icons"
 # Show windows of currently focused application (todo doesnt work)
 #bindsym Mod1+q exec --no-startup-id "~/scripts/show_windows.sh"
 # Screenshots
-bindsym $mod+Shift+c exec "flameshot gui"
+bindsym $mod+Shift+c exec "ksnip -r"
 #bindsym Ctrl+Shift+g exec --no-startup-id "simplescreenrecorder" todo get better screen recorder
 # Clipboard history
 bindsym $mod+v exec "copyq toggle"
@@ -322,6 +328,8 @@ exec --no-startup-id nitrogen --restore
 #exec --no-startup-id fdirefox
 #startup apps
 
+exec --no-startup-id discord
+exec --no-startup-id xmodmap -e "keycode 66 = Right"
 exec --no-startup-id kdeconnectd
 exec --no-startup-id ~/scripts/alternating_layouts.py
 exec --no-startup-id ~/scripts/teamviewerlaunch.sh
