@@ -1,1 +1,1 @@
-return { "EdenEast/nightfox.nvim" } 
+return { "danilo-augusto/vim-afterglow" }
