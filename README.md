@@ -16,4 +16,4 @@ after you do this you need to change `ZSH_THEME` to "powerlevel10k/powerlevel10k
 
 also if you can add my aliasses using this command: `echo source ~/.aliasses.zsh >> ~/.zshrc` if you saved my `.aliasses.zsh` file in a directory other than `~/`, then make sure to change the `~/.aliasses.zsh` to your `.aliasses.zsh` file path.  
 
-you also need to install `0xProto Nerd Font` and `ComicShannsMono Nerd Font`. you can do that from their website: https://www.nerdfonts.com/font-downloads  
+you also need to install `0xProto Nerd Font` and `ComicShannsMono Nerd Font`. you can do that from the nerdfonts website: https://www.nerdfonts.com/font-downloads  
