@@ -122,7 +122,8 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 source ~/.aliases.zsh
 eval "$(zoxide init zsh)"
 #figlet -f mono12 -t "i use arch btw" | lolcat
-python ~/a.py
+#python ~/a.py
+neofetch
 set -o vi
 source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
