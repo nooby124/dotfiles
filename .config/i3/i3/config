@@ -60,10 +60,10 @@ bindsym $mod+shift+ctrl+0 exec "systemctl suspend"
 # Wayland/Gnome, but there, don't need to use xrandr, but just restart the monitor for 160hz.
 
 # start a terminal
-bindsym $mod+Return exec alacritty 
+bindsym $mod+Return exec kitty
 bindsym $mod+Shift+Return exec "flatpak run io.gitlab.librewolf-community"
 #bindsym $mod+Shift+Return exec "flatpak run com.brave.Browser"
-#bindsym $mod+e exec nautilus
+bindsym $mod+e exec nautilus
 
 #bindsym $mod+Shift+1 exec "setxkbmap il"
 #bindsym $mod+Shift+2 exec "setxkbmap us"
@@ -328,6 +328,7 @@ exec --no-startup-id nitrogen --restore
 #exec --no-startup-id fdirefox
 #startup apps
 
+exec --no-startup-id xsetroot -cursor_name left_ptr
 exec --no-startup-id discord
 exec --no-startup-id xmodmap -e "keycode 66 = Right"
 exec --no-startup-id kdeconnectd

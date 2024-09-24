@@ -1,0 +1,6 @@
+{
+  "snippets.ultisnips.pythonPrompt": false
+  "suggest.snippetIndicator": ">>",
+  "suggest.autoTrigger": "always",
+  "snippet.expandWithTab": true
+}
