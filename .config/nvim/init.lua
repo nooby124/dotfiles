@@ -2,12 +2,16 @@ require("config.lazy")
 require("mason").setup()
 require("autoclose").setup()
 
--- require'lspconfig'.pyright.setup{}
--- require'lspconfig'.ast_grep.setup{}
--- require'lspconfig'.csharp_ls.setup{}
--- require'lspconfig'.lua_ls.setup{}
--- require'lspconfig'.html.setup{}
--- require'lspconfig'.bashls.setup{}
+vim.keymap.set('v', '<leader>y', '"+y', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>Y', '"+yg_', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>y', '"+y', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>yy', '"+yy', { noremap = true, silent = true })
+
+vim.keymap.set('n', '<leader>p', '"+p', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>P', '"+P', { noremap = true, silent = true })
+vim.keymap.set('v', '<leader>p', '"+p', { noremap = true, silent = true })
+vim.keymap.set('v', '<leader>P', '"+P', { noremap = true, silent = true })
+
 
 vim.keymap.set('n', '<A-w>', '<C-w>w', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('i', '<CR>', [[pumvisible() ? "\<C-y>" : "\<CR>"]], { noremap = true, silent = true, expr = true })
@@ -28,7 +32,7 @@ vim.cmd("colorscheme afterglow")
 
 vim.keymap.set('n', '<leader>gp', ":Gitsigns preview_hunk<CR>", {})
 vim.keymap.set('n', '<leader>tn', ":tabnew | Telescope find_files<CR>", {})
-vim.api.nvim_set_keymap('n', '<S-Tab>', ':tabprevious<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<S-z>', ':tabprev<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>bored', ":CellularAutomaton make_it_rain<CR>", {})
 vim.keymap.set('n', '<leader>board', ":CellularAutomaton game_of_life<CR>", {})
 

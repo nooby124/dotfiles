@@ -1,1 +1,3 @@
-return { "danilo-augusto/vim-afterglow" }
+return {
+	"danilo-augusto/vim-afterglow"
+}
