@@ -2,8 +2,8 @@
  
 # toggle_gaps [on|off|toggle]
  
-INNER=10
-OUTER=10
+INNER=6
+OUTER=6
  
 mode=$1
  

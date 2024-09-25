@@ -1,18 +1,12 @@
-#[font]
-#normal = { family = "MesloLGLDZ Nerd Font", style = "Regular" }
+import = [
+  "~/.config/alacritty/themes/themes/afterglow.toml"
+]
 
-#bold = { family = "MesloLGS Nerd Font", style = "Bold" }
-
-#italic = { family = "MesloLGS Nerd Font", style = "Italic" }
-
-#bold_italic = { family = "MesloLGS Nerd Font", style = "Bold Italic" }
-
-#size = 13.0
 [font]
 #glyph_offset = { x = 1, y = 0 }
 normal.family = "ComicShannsMonoNerd Font"
 normal.style = "Regular"
-size = 13.0
+size = 14.0
 
 [font.bold]
 family = "ComicShannsMonoNerd Font"
