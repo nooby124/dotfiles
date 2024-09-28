@@ -19,7 +19,7 @@
     //"cursor",
     "terminal",
     "terminalfont",
-    "cpu",
+    // "cpu",
     "gpu",
     "memory",
     "swap",
