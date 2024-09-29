@@ -6,7 +6,7 @@ my dotfiles that are a fork of Livakivi's dotfiles
 
 i use arch btw  
 command to install most apps:  
-```yay alacritty dunst fastfetch i3 lf neofetch neovim picom polybar rofi git fzf bat xsel rofi-greenclip kdeconnectd playerctl ksnip nitrogen cbonsai fortune cowsay lolcat sl exa```  
+```yay -S alacritty dunst fastfetch i3 lf neofetch neovim picom polybar rofi git fzf bat xsel rofi-greenclip kdeconnectd playerctl ksnip nitrogen cbonsai fortune cowsay lolcat sl exa```  
   
 i also use `zsh` with `oh-my-zsh` and `powerlevel10k`   
 so to install them do: ```yay -S zsh && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k```  

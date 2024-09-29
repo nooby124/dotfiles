@@ -50,5 +50,16 @@ vim.keymap.set('i', '<A-Up>', '<Esc>:m .-2<CR>==gi', { noremap = true, silent = 
 vim.keymap.set('x', '<A-Down>', ":m '>+1<CR>gv=gv", { noremap = true, silent = true })
 vim.keymap.set('x', '<A-Up>', ":m '<-2<CR>gv=gv", { noremap = true, silent = true })
 
+vim.api.nvim_set_keymap('n', '<leader>1', '1gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>2', '2gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>3', '3gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>4', '4gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>5', '5gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>6', '6gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>7', '7gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>8', '8gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>9', '9gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>0', ':tablast<CR>', { noremap = true, silent = true })
+
 
 vim.opt.relativenumber = true
