@@ -10,6 +10,6 @@ after that change you need to change `ZSH_THEME` in `~/.zshrc` to powerlevel10k/
 you also need to install `0xProto Nerd Font` and `ComicShannsMono Nerd Font`. you can do that from the nerdfonts website: https://www.nerdfonts.com/font-downloads  
 ____
 ## screenshots
-![screenshotofdesktop](screenshotofdesktop.png)  
+![screenshotofdesktop](screenshots/screenshotofdesktop.png)  
 
-![screenshotwithneofetch](withneofetch.png)
+![screenshotwithneofetch](screenshots/withneofetch.png)
