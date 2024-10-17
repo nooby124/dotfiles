@@ -135,3 +135,4 @@ map ba cd ~/
 map gc cd ~/.config
 map gmd cd ~/.local/share/Steam/steamapps/compatdata/322170/pfx/drive_c/users/steamuser/AppData/Local/GeometryDash
 map gd cd ~/Downloads
+map gv cd ~/Videos

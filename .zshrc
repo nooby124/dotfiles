@@ -16,8 +16,10 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.dotnet/tools:$HOME/.local/bin:/var/lib/snapd/snap/bin:$PATH
 # Path to your Oh My Zsh installation.
+export GTK_THEME="Adwaita-dark"
 export ZSH="$HOME/.oh-my-zsh"
-
+export LSCAT_LS="ls -a --color=always"
+export LSCAT_CAT="bat"
 export BROWSER="flatpak run io.gitlab.librewolf-community"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -155,3 +157,5 @@ eval $(thefuck --alias)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+. "/home/amitay/.deno/env"
+. "$HOME/.cargo/env"

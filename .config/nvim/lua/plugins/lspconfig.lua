@@ -10,6 +10,7 @@ return {
 	 	require('lspconfig').bashls.setup({})
 		require('lspconfig').csharp_ls.setup({})
 		require('lspconfig').jdtls.setup({})
+		require('lspconfig').gopls.setup({})
 	end
 
 }
