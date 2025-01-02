@@ -25,4 +25,6 @@ alias ls="lscat"
 alias sl="\sl -5 -c -F -e -w -G"
 alias iamhacker="echo yes congrats"
 alias topcmds="history | awk '{CMD[\$2]++} END {for (a in CMD) print CMD[a] \" \" a}' | sort -nr | head -n 10"
-
+alias caio="cai ol llama2:latest"
+alias ytdls="yt-dlp -x --audio-format mp3"
+alias rhs="cd /home/amitay/Downloads/StandaloneLinux64-build/StandaloneLinux64/build/StandaloneLinux64 &&  ./'Heaven Studio'"

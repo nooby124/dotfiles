@@ -27,8 +27,8 @@ set $refresh_i3status killall -SIGUSR1 i3status
 #bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 #bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 #set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer --allow-boost -i 5 --set-limit 100 && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pamixer --allow-boost -d 5 && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer --allow-boost -i 2 --set-limit 100 && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pamixer --allow-boost -d 2 && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pamixer -t && $refresh_i3status
 
 
@@ -46,7 +46,7 @@ bindsym $mod+Shift+o reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+p restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+Crtl+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 # Exit directly
 bindsym $mod+Shift+Control+9 exec "i3-msg exit"
 # Sleep
@@ -60,7 +60,7 @@ bindsym $mod+shift+ctrl+0 exec "systemctl suspend"
 # Wayland/Gnome, but there, don't need to use xrandr, but just restart the monitor for 160hz.
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec ghostty
 bindsym $mod+Shift+Return exec "flatpak run io.gitlab.librewolf-community"
 #bindsym $mod+Shift+Return exec "flatpak run com.brave.Browser"
 bindsym $mod+e exec nautilus
@@ -145,8 +145,10 @@ bindsym $mod+g exec ~/scripts/i3toggle_gaps.sh toggle
 #bindsym $mod+space focus mode_toggle
 #bindsym $mod+space exec --no-startup-id setxkbmap -layout us,il -option "grp:win_space_toggle"
 
-bindsym $mod+space exec --no-startup-id ~/.config/i3/toggle_layout.sh
-
+# bindsym $mod+space exec --no-startup-id ~/.config/i3/toggle_layout.sh
+bindsym Control+1 exec --no-startup-id setxkbmap il
+bindsym Control+2 exec --no-startup-id setxkbmap us
+bindsym Control+3 exec --no-startup-id setxkbmap ee
 
 # focus the parent/child/next container
 #bindsym $mod+a focus parent
@@ -255,6 +257,7 @@ bindsym $mod+v exec "copyq toggle"
 
 # playerctl
 bindsym mod1+F11 exec "playerctl play-pause"
+bindsym $mod+shift+E exec "playerctl play-pause"
 
 # Shortcuts for switching between languages
 # fcitx5
