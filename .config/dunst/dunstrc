@@ -1,5 +1,5 @@
 [global]
-font = Iosevka Term 11
+font = Font Awesome 5 Free Regular
 
 # Allow a small subset of html markup:
 #   <b>bold</b>
@@ -13,6 +13,8 @@ font = Iosevka Term 11
 # message.
 markup = yes
 plain_text = no
+
+origin = bottom-right
 
 # The format of the message.  Possible variables are:
 #   %a  appname
@@ -165,7 +167,7 @@ frame_color = "#8EC07C"
 # Xev might be helpful to find names for keys.
 
 # Close notification.
-close = mod1+d
+close = mod4+shift+q
 
 # Close all notifications.
 close_all = mod1+shift+d

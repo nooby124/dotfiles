@@ -1,4 +1,4 @@
-# dotfiles
+#ghost-in-the-machine-86 dotfiles
 my dotfiles that are a fork of Livakivi's dotfiles
 [here are livakivi's dotfiles](https://github.com/Livakivi/config-files/)  
 
@@ -13,3 +13,7 @@ ____
 ![screenshotofdesktop](screenshots/screenshotofdesktop.png)  
 
 ![screenshotwithneofetch](screenshots/withneofetch.png)
+# credits
+[rofi calendar](https://github.com/ghost-in-the-machine-86/rofi-calendar) by [ghost-in-the-machine-86](https://github.com/ghost-in-the-machine-86)  
+
+[dunst-media-control](https://github.com/Shringe/dunst-media-control) by [Shringe](https://github.com/Shringe)
