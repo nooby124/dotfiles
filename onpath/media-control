@@ -3,7 +3,7 @@
 # github https://github.com/Shringe/dunst-media-control
 
 # See README.md for usage instructions
-volume_step=2
+volume_step=5
 mic_volume_step=5
 brightness_step=5
 max_volume=100
