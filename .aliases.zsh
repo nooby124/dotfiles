@@ -1,5 +1,6 @@
 
 alias ff="fzf --preview='bat --color always {}'"
+alias fixmic="sudo modprobe snd-usb-audio"
 alias ":q!"="exit"
 alias filesize="du -bsh"
 alias dirsize="du -sh"
