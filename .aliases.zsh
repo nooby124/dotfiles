@@ -29,3 +29,4 @@ alias topcmds="history | awk '{CMD[\$2]++} END {for (a in CMD) print CMD[a] \" \
 alias caio="cai ol llama2:latest"
 alias ytdls="yt-dlp -x --audio-format mp3"
 alias rhs="cd /home/amitay/Downloads/StandaloneLinux64-build/StandaloneLinux64/build/StandaloneLinux64 &&  ./'Heaven Studio'"
+alias drivers="sudo modprobe hid-nintendo && sudo modprobe gcadapter_oc && echo 'maybe keep this window open maybe' && sudo wii-u-gc-adapter &"

@@ -161,6 +161,7 @@ bindsym $mod+g exec ~/scripts/i3toggle_gaps.sh toggle
 bindsym Control+1 exec --no-startup-id setxkbmap il
 bindsym Control+2 exec --no-startup-id setxkbmap us
 bindsym Control+3 exec --no-startup-id setxkbmap ee
+bindsym Control+4 exec --no-startup-id setxkbmap ara
 
 # focus the parent/child/next container
 #bindsym $mod+a focus parent
@@ -343,6 +344,7 @@ exec --no-startup-id nitrogen --restore
 #exec --no-startup-id fdirefox
 #startup apps
 
+exec --no-startup-id /usr/lib/xdg-desktop-portal-gtk &
 exec --no-startup-id sudo modprobe snd-usb-audio
 exec --no-startup-id xsetroot -cursor_name left_ptr
 exec --no-startup-id discord
@@ -357,7 +359,7 @@ exec --no-startup-id greenclip daemon
 exec --no-startup-id discord
 exec --no-startup-id copyq
 exec --no-startup-id /home/amitay/.screenlayout/default.sh
-exec --no-startup-id nitrogen --set-zoom-fill --save --head=0 ~/bg/bg.jpg
+exec --no-startup-id nitrogen --set-zoom-fill --save --head=0 ~/bg/bg1.png && nitrogen --set-zoom-fill --save --head=1 ~/bg/bg.jpg
 ### BORDERS ###
 # Window icon in titlebar
 for_window [all] title_window_icon off

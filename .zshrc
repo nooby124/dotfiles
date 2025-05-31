@@ -20,7 +20,6 @@ export GTK_THEME="Adwaita-dark"
 export ZSH="$HOME/.oh-my-zsh"
 export LSCAT_LS="ls -a --color=always"
 export LSCAT_CAT="bat"
-export BROWSER="flatpak run io.gitlab.librewolf-community"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -159,3 +158,4 @@ eval $(thefuck --alias)
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 . "/home/amitay/.deno/env"
 . "$HOME/.cargo/env"
+export PATH="$HOME/.npm-global/bin:$PATH"
